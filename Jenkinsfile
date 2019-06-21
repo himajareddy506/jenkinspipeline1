@@ -5,7 +5,7 @@ pipeline {
 
         stage('Deploy - Staging') {
             steps {
-           echo 'Himaja'
+           echo 'staging'
             }
         }
 
