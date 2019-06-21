@@ -6,7 +6,6 @@ pipeline {
         stage('Deploy - Staging') {
             steps {
            echo 'Himaja'
-                echo 'honey'
             }
         }
 
