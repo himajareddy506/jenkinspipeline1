@@ -5,8 +5,8 @@ pipeline {
 
         stage('Deploy - Staging') {
             steps {
-             echo staging
-                echo tests
+           echo 'Himaja'
+                echo 'honey'
             }
         }
 
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Deploy - Production') {
             steps {
-                echo production
+                echo 'production'
             }
         }
     }
